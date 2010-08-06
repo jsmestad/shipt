@@ -2,6 +2,6 @@ require 'spec_helper'
 
 describe Shipt do
   
-  it 'should do something'
+  it "should have some sort of tests someday"
 
 end
