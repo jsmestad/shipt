@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
      "examples/example.fog",
      "lib/shipt.rb",
      "mongodb_master.log",
+     "shipt.gemspec",
      "spec/shipt_spec.rb",
      "spec/spec_helper.rb"
   ]
