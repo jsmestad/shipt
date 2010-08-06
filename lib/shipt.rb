@@ -1,4 +1,5 @@
 require 'fog'
+require 'logger'
 
 class Shipt
   
@@ -8,14 +9,20 @@ class Shipt
     @bucket_key = bucket_key
     @access_key = options[:access_key]
     @secret_key = options[:secret_key]
+    @logger     = Logger.new(options[:logger] || STDOUT)
   end
   
   def upload_file(path)
-    directory.files.create(:key => "#{@bucket_key}-#{Time.now.strftime("%Y%m%d-%H%M%S")}.log", :body => File.read(path))
+    key_name = "#{@bucket_key}-#{Time.now.strftime("%Y%m%d-%H%M%S")}.log"
+    
+    @logger.info "Uploading \"#{path}\" => \"#{key_name}\""
+    r = directory.files.create(:key => key_name, :body => File.read(path))
+    @logger.info "Uploaded: #{r.inspect}"
   end
   
-  def directory(server)
-    directory = connection.directories.create(:key => "#{@bucket_key}")
+  def directory
+    @logger.info "Creating and Moving to directory #{@bucket_key}"
+    @directory = connection.directories.create(:key => "#{@bucket_key}")
   end
   
   protected

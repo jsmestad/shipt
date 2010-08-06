@@ -14,9 +14,9 @@ opts = Trollop::options do
   where [options] are:
 EOS
 
-  opt :bucket,      "Bucket name, should be server name"
-  opt :access_key,  "Amazon Access Key"
-  opt :secret_key,  "Amazon Secret Access Key"
+  opt :bucket,      "Bucket name, should be server name", :type => :string
+  opt :access_key,  "Amazon Access Key", :type => :string
+  opt :secret_key,  "Amazon Secret Access Key", :type => :string
 end
 
 s = Shipt.new(opts[:bucket], opts)
