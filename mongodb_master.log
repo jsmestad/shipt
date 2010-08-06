@@ -1,0 +1,482 @@
+Fri Aug  6 18:33:51 [initandlisten] select() signal caught, continuing
+Fri Aug  6 18:33:51 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 13ms
+Fri Aug  6 18:33:51 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "1590979603", slug: "115830958468445" }, fields: null }
+Fri Aug  6 18:33:51 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1590979603", slug: "115830958468445" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:51 [conn4] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192116 { $query: { status: 0, slug: "93021448430" }, $orderby: { logged_in_at: -1 } }  nreturned:0 157ms
+Fri Aug  6 18:33:51 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:51 [conn4] query clobby.chatters ntoreturn:1 reslen:335 nreturned:1 59ms
+Fri Aug  6 18:33:51 [conn4] update clobby.chatters  query: { _id: ObjectId('4c53cd33c3774c1973001d2b') } byid  0ms
+Fri Aug  6 18:33:51 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:212 nreturned:1 261ms
+Fri Aug  6 18:33:51 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 7ms
+Fri Aug  6 18:33:51 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:33:51 [conn2] query clobby.chatters ntoreturn:1 reslen:326 nscanned:188487 { uid: "1590979603", slug: "115830958468445" }  nreturned:1 228ms
+Fri Aug  6 18:33:51 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c2bcb6486bd53ab0039ba') } byid  0ms
+Fri Aug  6 18:33:51 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 60ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 10ms
+Fri Aug  6 18:33:52 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 10ms
+Fri Aug  6 18:33:52 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000421067862", slug: "130253693679243" }, fields: null }
+Fri Aug  6 18:33:52 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000421067862", slug: "130253693679243" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:52 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 13ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 6ms
+Fri Aug  6 18:33:52 [conn2] update clobby.chatters  query: { _id: ObjectId('4c524060fd516d0a79002a1b') } byid  0ms
+Fri Aug  6 18:33:52 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 47ms
+Fri Aug  6 18:33:52 [conn4] query clobby.chatters ntoreturn:1 reslen:276 nreturned:1 53ms
+Fri Aug  6 18:33:52 [conn4] update clobby.chatters  query: { _id: ObjectId('4c568d8feb5b371cb8000a3a') } byid  0ms
+Fri Aug  6 18:33:52 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 79ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:36 nreturned:0 18ms
+Fri Aug  6 18:33:52 [conn4] insert clobby.rooms 0ms
+Fri Aug  6 18:33:52 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "1579644134" }, fields: null }
+Fri Aug  6 18:33:52 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:177 nreturned:1 39ms
+Fri Aug  6 18:33:52 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "1579644134" }, fields: null } reslen:64 127ms
+Fri Aug  6 18:33:52 [initandlisten] connection accepted from 127.0.0.1:53532 #222
+Fri Aug  6 18:33:52 [conn222] run command admin.$cmd { ismaster: 1 }
+Fri Aug  6 18:33:52 [conn222] query admin.$cmd ntoreturn:1 command: { ismaster: 1 } reslen:64 0ms
+Fri Aug  6 18:33:52 [conn222] end connection 127.0.0.1:53532
+Fri Aug  6 18:33:52 [slaveTracking] update  0ms
+Fri Aug  6 18:33:52 [conn4] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192116 { $query: { status: 1, slug: "1579644134" }, $orderby: { logged_in_at: -1 } }  nreturned:0 179ms
+Fri Aug  6 18:33:52 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 7ms
+Fri Aug  6 18:33:52 [conn4] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192116 { $query: { status: 0, slug: "1579644134" }, $orderby: { logged_in_at: -1 } }  nreturned:0 162ms
+Fri Aug  6 18:33:52 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192116 { uid: "100000565075783", slug: "108080072576293" }  nreturned:1 144ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 8ms
+Fri Aug  6 18:33:52 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100000399527420", slug: "149320655078735" }, fields: null }
+Fri Aug  6 18:33:52 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000399527420", slug: "149320655078735" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:52 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c558f6486bd53ab004d11') } byid  0ms
+Fri Aug  6 18:33:52 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 511ms
+Fri Aug  6 18:33:52 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:33:52 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 8ms
+Fri Aug  6 18:33:52 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "", slug: "117148028322270" }, fields: null }
+Fri Aug  6 18:33:52 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "", slug: "117148028322270" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:52 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192116 { uid: "100000399527420", slug: "149320655078735" }  nreturned:0 130ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 3ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:33:52 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192116 { uid: "", slug: "117148028322270" }  nreturned:0 135ms
+Fri Aug  6 18:33:52 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 5ms
+Fri Aug  6 18:33:52 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "", slug: "115173191862221" }, fields: null }
+Fri Aug  6 18:33:52 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "", slug: "115173191862221" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:52 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:53 [conn2] query clobby.rooms ntoreturn:1 reslen:142 nreturned:1 0ms
+Fri Aug  6 18:33:53 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192116 { uid: "", slug: "115173191862221" }  nreturned:0 146ms
+Fri Aug  6 18:33:53 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 3ms
+Fri Aug  6 18:33:53 [slaveTracking] update  0ms
+Fri Aug  6 18:33:53 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 2ms
+Fri Aug  6 18:33:54 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 1ms
+Fri Aug  6 18:33:54 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:33:54 [conn4] query clobby.chatters reslen:1801 nscanned:192116 { uid: "100000414485652" }  nreturned:6 157ms
+Fri Aug  6 18:33:54 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:33:54 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "124670667552292" }, fields: null }
+Fri Aug  6 18:33:54 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192116 { uid: "100000007504074", slug: "103056796418167" }  nreturned:0 155ms
+Fri Aug  6 18:33:54 [conn2] insert clobby.chatters 0ms
+Fri Aug  6 18:33:54 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 1735ms
+Fri Aug  6 18:33:54 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:33:54 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:64 nreturned:1 79ms
+Fri Aug  6 18:33:54 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "124670667552292" }, fields: null } reslen:64 173ms
+Fri Aug  6 18:33:54 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:33:54 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "143261032359161" }, fields: null }
+Fri Aug  6 18:33:54 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "143261032359161" }, fields: null } reslen:64 154ms
+Fri Aug  6 18:33:54 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 1ms
+Fri Aug  6 18:33:54 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "106955449353433" }, fields: null }
+Fri Aug  6 18:33:54 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 2ms
+Fri Aug  6 18:33:54 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "104554982929764" }, fields: null }
+Fri Aug  6 18:33:54 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "106955449353433" }, fields: null } reslen:64 152ms
+Fri Aug  6 18:33:54 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:33:54 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "105610942823763" }, fields: null }
+Fri Aug  6 18:33:54 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "104554982929764" }, fields: null } reslen:64 149ms
+Fri Aug  6 18:33:54 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "105610942823763" }, fields: null } reslen:64 150ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 8ms
+Fri Aug  6 18:33:55 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "100000088511108" }, fields: null }
+Fri Aug  6 18:33:55 [conn2] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192117 { $query: { status: 1, slug: "104554982929764" }, $orderby: { logged_in_at: -1 } }  nreturned:0 137ms
+Fri Aug  6 18:33:55 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "100000088511108" }, fields: null } reslen:64 138ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:33:55 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "127138963991308" }, fields: null }
+Fri Aug  6 18:33:55 [conn2] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192117 { $query: { status: 0, slug: "104554982929764" }, $orderby: { logged_in_at: -1 } }  nreturned:0 157ms
+Fri Aug  6 18:33:55 [conn2] query clobby.chatters reslen:326 nscanned:192117 { uid: "1033206336" }  nreturned:1 116ms
+Fri Aug  6 18:33:55 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "127138963991308" }, fields: null } reslen:64 165ms
+Fri Aug  6 18:33:55 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 3ms
+Fri Aug  6 18:33:55 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "131839306852498" }, fields: null }
+Fri Aug  6 18:33:55 [slaveTracking] update  0ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 8ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:33:55 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "1596141856", slug: "213926726961" }, fields: null }
+Fri Aug  6 18:33:55 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1596141856", slug: "213926726961" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:55 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "131839306852498" }, fields: null } reslen:64 151ms
+Fri Aug  6 18:33:55 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 4ms
+Fri Aug  6 18:33:55 [conn2] query clobby.rooms ntoreturn:1 reslen:36 nreturned:0 11ms
+Fri Aug  6 18:33:55 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 3ms
+Fri Aug  6 18:33:55 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "892285295", slug: "162457138545" }, fields: null }
+Fri Aug  6 18:33:55 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "892285295", slug: "162457138545" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:55 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192117 { uid: "1596141856", slug: "213926726961" }  nreturned:0 125ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 5ms
+Fri Aug  6 18:33:55 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:33:55 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "1486807780", slug: "375551173417" }, fields: null }
+Fri Aug  6 18:33:55 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1486807780", slug: "375551173417" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:55 [conn4] query clobby.chatters ntoreturn:1 reslen:320 nreturned:1 33ms
+Fri Aug  6 18:33:55 [conn4] update clobby.chatters  query: { _id: ObjectId('4c544c2299cf9f6f0900143a') } byid  0ms
+Fri Aug  6 18:33:55 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 1199ms
+Fri Aug  6 18:33:55 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192117 { uid: "892285295", slug: "162457138545" }  nreturned:0 161ms
+Fri Aug  6 18:33:55 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:33:55 [initandlisten] connection accepted from 10.240.95.193:40488 #223
+Fri Aug  6 18:33:55 [initandlisten] connection accepted from 10.240.95.193:40489 #224
+Fri Aug  6 18:33:55 [conn223] run command admin.$cmd { ismaster: 1 }
+Fri Aug  6 18:33:55 [conn223] query admin.$cmd ntoreturn:1 command: { ismaster: 1 } reslen:64 0ms
+Fri Aug  6 18:33:55 [conn224] run command admin.$cmd { ismaster: 1 }
+Fri Aug  6 18:33:55 [conn224] query admin.$cmd ntoreturn:1 command: { ismaster: 1 } reslen:64 0ms
+Fri Aug  6 18:33:55 [conn223] end connection 10.240.95.193:40488
+Fri Aug  6 18:33:55 [conn224] end connection 10.240.95.193:40489
+Fri Aug  6 18:33:55 [initandlisten] connection accepted from 10.240.95.193:40490 #225
+Fri Aug  6 18:33:55 [conn225] run command frontend_index.$cmd { getnonce: 1 }
+Fri Aug  6 18:33:55 [conn225] query frontend_index.$cmd ntoreturn:1 command: { getnonce: 1 } reslen:81 0ms
+Fri Aug  6 18:33:55 [initandlisten] connection accepted from 10.240.95.193:40491 #226
+Fri Aug  6 18:33:55 [conn226] run command frontend_index.$cmd { getnonce: 1 }
+Fri Aug  6 18:33:55 [conn226] query frontend_index.$cmd ntoreturn:1 command: { getnonce: 1 } reslen:81 0ms
+Fri Aug  6 18:33:55 [conn225] run command frontend_index.$cmd { authenticate: 1, nonce: "13ac7f6154b8450b", user: "mongo_user", key: "573d47c77699ee34c2cb78cdc42695ef" }
+Fri Aug  6 18:33:55 [conn225]  authenticate: { authenticate: 1, nonce: "13ac7f6154b8450b", user: "mongo_user", key: "573d47c77699ee34c2cb78cdc42695ef" }
+Fri Aug  6 18:33:55 [conn225] query frontend_index.$cmd ntoreturn:1 command: { authenticate: 1, nonce: "13ac7f6154b8450b", user: "mongo_user", key: "573d47c77699ee34c2cb78cdc42695ef" } reslen:53 0ms
+Fri Aug  6 18:33:55 [conn226] run command frontend_index.$cmd { authenticate: 1, nonce: "788ebe8ca56e3ea9", user: "mongo_user", key: "1da314275ee57ff2a35febce45a3b637" }
+Fri Aug  6 18:33:55 [conn226]  authenticate: { authenticate: 1, nonce: "788ebe8ca56e3ea9", user: "mongo_user", key: "1da314275ee57ff2a35febce45a3b637" }
+Fri Aug  6 18:33:55 [conn226] query frontend_index.$cmd ntoreturn:1 command: { authenticate: 1, nonce: "788ebe8ca56e3ea9", user: "mongo_user", key: "1da314275ee57ff2a35febce45a3b637" } reslen:53 0ms
+Fri Aug  6 18:33:55 [conn2] query clobby.chatters ntoreturn:1 reslen:326 nreturned:1 67ms
+Fri Aug  6 18:33:55 [conn2] update clobby.chatters  query: { _id: ObjectId('4c56fc93e6283918850000f4') } byid  0ms
+Fri Aug  6 18:33:55 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 149ms
+Fri Aug  6 18:33:56 [conn2] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:33:56 [initandlisten] connection accepted from 127.0.0.1:53533 #227
+Fri Aug  6 18:33:56 [conn227] end connection 127.0.0.1:53533
+Fri Aug  6 18:33:56 [conn2] query clobby.chatters reslen:335 nscanned:192117 { uid: "100000619871660" }  nreturned:1 169ms
+Fri Aug  6 18:33:56 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:56 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "190264426895" }, fields: null }
+Fri Aug  6 18:33:56 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "190264426895" }, fields: null } reslen:64 136ms
+Fri Aug  6 18:33:56 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 3ms
+Fri Aug  6 18:33:56 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100001376108342", slug: "140338185987627" }, fields: null }
+Fri Aug  6 18:33:56 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001376108342", slug: "140338185987627" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:56 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 47ms
+Fri Aug  6 18:33:56 [conn2] update clobby.chatters  query: { _id: ObjectId('4c53f9e7c3774c1973003b6d') } byid  0ms
+Fri Aug  6 18:33:56 [slaveTracking] update  0ms
+Fri Aug  6 18:33:56 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 589ms
+Fri Aug  6 18:33:56 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:33:56 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "1789734242", slug: "375551173417" }, fields: null }
+Fri Aug  6 18:33:56 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1789734242", slug: "375551173417" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:56 [conn2] query clobby.chatters ntoreturn:1 reslen:320 nreturned:1 50ms
+Fri Aug  6 18:33:56 [conn2] update clobby.chatters  query: { _id: ObjectId('4c541a2e6c2c3a4961001f08') } byid  0ms
+Fri Aug  6 18:33:56 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 99ms
+Fri Aug  6 18:33:56 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:33:56 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "1486807780", slug: "375551173417" }, fields: null }
+Fri Aug  6 18:33:56 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1486807780", slug: "375551173417" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:56 [conn4] query clobby.chatters ntoreturn:1 reslen:320 nreturned:1 53ms
+Fri Aug  6 18:33:56 [conn4] update clobby.chatters  query: { _id: ObjectId('4c544c2299cf9f6f0900143a') } byid  0ms
+Fri Aug  6 18:33:56 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 189ms
+Fri Aug  6 18:33:56 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 3ms
+Fri Aug  6 18:33:56 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 10ms
+Fri Aug  6 18:33:56 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100000067814695", slug: "118169704886553" }, fields: null }
+Fri Aug  6 18:33:56 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000067814695", slug: "118169704886553" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:57 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:33:57 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192117 { uid: "100000067814695", slug: "118169704886553" }  nreturned:0 136ms
+Fri Aug  6 18:33:57 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100001117902653", slug: "284336789333" }, fields: null }
+Fri Aug  6 18:33:57 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001117902653", slug: "284336789333" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:57 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 10ms
+Fri Aug  6 18:33:57 [conn2] query clobby.chatters ntoreturn:1 reslen:335 nscanned:191950 { uid: "100001117902653", slug: "284336789333" }  nreturned:1 155ms
+Fri Aug  6 18:33:57 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c532c6486bd53ab004bf9') } byid  0ms
+Fri Aug  6 18:33:57 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 630ms
+Fri Aug  6 18:33:57 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192117 { uid: "100001223335572", slug: "139909849362975" }  nreturned:0 137ms
+Fri Aug  6 18:33:57 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:33:57 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 79ms
+Fri Aug  6 18:33:57 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 10ms
+Fri Aug  6 18:33:57 [slaveTracking] update  0ms
+Fri Aug  6 18:33:57 [conn2] query clobby.chatters reslen:510 nscanned:192118 { uid: "100000888935412" }  nreturned:2 136ms
+Fri Aug  6 18:33:57 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 9ms
+Fri Aug  6 18:33:57 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "100001043457844" }, fields: null }
+Fri Aug  6 18:33:57 [conn4] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192118 { uid: "100001223335572", slug: "139909849362975" }  nreturned:1 127ms
+Fri Aug  6 18:33:57 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "100001043457844" }, fields: null } reslen:64 129ms
+Fri Aug  6 18:33:57 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:57 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "284336789333" }, fields: null }
+Fri Aug  6 18:33:57 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "284336789333" }, fields: null } reslen:64 137ms
+Fri Aug  6 18:33:57 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 1ms
+Fri Aug  6 18:33:57 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "116106375097286" }, fields: null }
+Fri Aug  6 18:33:57 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "116106375097286" }, fields: null } reslen:64 138ms
+Fri Aug  6 18:33:58 [conn2] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 1, slug: "116106375097286" }, $orderby: { logged_in_at: -1 } }  nreturned:0 137ms
+Fri Aug  6 18:33:58 [conn4] query clobby.rooms ntoreturn:1 reslen:36 nreturned:0 11ms
+Fri Aug  6 18:33:58 [conn2] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 0, slug: "116106375097286" }, $orderby: { logged_in_at: -1 } }  nreturned:0 137ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 3ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 2ms
+Fri Aug  6 18:33:58 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000421067862", slug: "130253693679243" }, fields: null }
+Fri Aug  6 18:33:58 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000421067862", slug: "130253693679243" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:58 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 13ms
+Fri Aug  6 18:33:58 [conn2] update clobby.chatters  query: { _id: ObjectId('4c524060fd516d0a79002a1b') } byid  0ms
+Fri Aug  6 18:33:58 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 869ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:58 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 7ms
+Fri Aug  6 18:33:58 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:33:58 [slaveTracking] update  0ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:33:58 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 20ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 6ms
+Fri Aug  6 18:33:58 [conn2] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:33:58 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 19ms
+Fri Aug  6 18:33:58 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100001182966629", slug: "117148028322270" }, fields: null }
+Fri Aug  6 18:33:58 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001182966629", slug: "117148028322270" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:59 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192118 { uid: "100001182966629", slug: "117148028322270" }  nreturned:0 152ms
+Fri Aug  6 18:33:59 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:33:59 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "114535538581868" }, fields: null }
+Fri Aug  6 18:33:59 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 5ms
+Fri Aug  6 18:33:59 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100001010766346", slug: "139880822704564" }, fields: null }
+Fri Aug  6 18:33:59 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001010766346", slug: "139880822704564" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:59 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "114535538581868" }, fields: null } reslen:64 196ms
+Fri Aug  6 18:33:59 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192118 { uid: "100001010766346", slug: "139880822704564" }  nreturned:0 166ms
+Fri Aug  6 18:33:59 [conn4] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 1, slug: "114535538581868" }, $orderby: { logged_in_at: -1 } }  nreturned:0 158ms
+Fri Aug  6 18:33:59 [conn2] query clobby.rooms ntoreturn:1 reslen:142 nreturned:1 0ms
+Fri Aug  6 18:33:59 [conn2] query clobby.chatters ntoreturn:1 reslen:266 nreturned:1 44ms
+Fri Aug  6 18:33:59 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5467b899cf9f6f09003090') } byid  0ms
+Fri Aug  6 18:33:59 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:212 nreturned:1 1349ms
+Fri Aug  6 18:33:59 [conn4] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 0, slug: "114535538581868" }, $orderby: { logged_in_at: -1 } }  nreturned:0 148ms
+Fri Aug  6 18:33:59 [conn4] query clobby.rooms ntoreturn:1 reslen:142 nreturned:1 6ms
+Fri Aug  6 18:33:59 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:33:59 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 3ms
+Fri Aug  6 18:33:59 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "1033206336", slug: "131839306852498" }, fields: null }
+Fri Aug  6 18:33:59 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "1033206336", slug: "131839306852498" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:59 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 5ms
+Fri Aug  6 18:33:59 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100001324759369", slug: "115173191862221" }, fields: null }
+Fri Aug  6 18:33:59 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001324759369", slug: "115173191862221" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:33:59 [conn2] query clobby.chatters ntoreturn:1 reslen:326 nscanned:144955 { uid: "1033206336", slug: "131839306852498" }  nreturned:1 118ms
+Fri Aug  6 18:33:59 [conn2] update clobby.chatters  query: { _id: ObjectId('4c59aeef47bb6a743000b782') } byid  0ms
+Fri Aug  6 18:33:59 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 252ms
+Fri Aug  6 18:33:59 [conn2] query clobby.rooms ntoreturn:1 reslen:142 nreturned:1 0ms
+Fri Aug  6 18:33:59 [conn2] query clobby.chatters ntoreturn:1 reslen:266 nreturned:1 33ms
+Fri Aug  6 18:33:59 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:00 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192118 { uid: "100001324759369", slug: "115173191862221" }  nreturned:0 163ms
+Fri Aug  6 18:34:00 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:00 [conn2] query clobby.chatters ntoreturn:1 reslen:326 nscanned:188487 { uid: "1590979603", slug: "115830958468445" }  nreturned:1 118ms
+Fri Aug  6 18:34:00 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c2bcb6486bd53ab0039ba') } byid  0ms
+Fri Aug  6 18:34:00 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:207 nreturned:1 186ms
+Fri Aug  6 18:34:00 [conn4] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 3ms
+Fri Aug  6 18:34:00 [slaveTracking] update  0ms
+Fri Aug  6 18:34:00 [conn4] query clobby.chatters ntoreturn:1 reslen:276 nscanned:164631 { uid: "100001355665850", slug: "100001417804274" }  nreturned:1 147ms
+Fri Aug  6 18:34:00 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5ae068cb356d6e76004d9b') } byid  0ms
+Fri Aug  6 18:34:00 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 409ms
+Fri Aug  6 18:34:00 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:34:00 [conn4] query clobby.chatters ntoreturn:1 reslen:326 nreturned:1 63ms
+Fri Aug  6 18:34:00 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5447dd99cf9f6f09000fe5') } byid  0ms
+Fri Aug  6 18:34:00 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:207 nreturned:1 139ms
+Fri Aug  6 18:34:00 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 6ms
+Fri Aug  6 18:34:00 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:34:00 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000887622335", slug: "284336789333" }, fields: null }
+Fri Aug  6 18:34:00 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000887622335", slug: "284336789333" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:00 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 34ms
+Fri Aug  6 18:34:00 [conn2] query clobby.chatters ntoreturn:1 reslen:335 nscanned:131893 { uid: "100000887622335", slug: "284336789333" }  nreturned:1 125ms
+Fri Aug  6 18:34:00 [conn2] update clobby.chatters  query: { _id: ObjectId('4c59130cfd23d22543004af4') } byid  0ms
+Fri Aug  6 18:34:00 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 179ms
+Fri Aug  6 18:34:00 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:34:00 [conn4] query clobby.chatters ntoreturn:1 reslen:326 nreturned:1 52ms
+Fri Aug  6 18:34:00 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 5ms
+Fri Aug  6 18:34:00 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000851205222", slug: "139880822704564" }, fields: null }
+Fri Aug  6 18:34:00 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000851205222", slug: "139880822704564" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:01 [conn4] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 2ms
+Fri Aug  6 18:34:01 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "100000512947631" }, fields: null }
+Fri Aug  6 18:34:01 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192086 { uid: "100000851205222", slug: "139880822704564" }  nreturned:1 203ms
+Fri Aug  6 18:34:01 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c552a0028763284001753') } byid  0ms
+Fri Aug  6 18:34:01 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:34:01 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:201 nreturned:1 339ms
+Fri Aug  6 18:34:01 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "100000512947631" }, fields: null } reslen:64 198ms
+Fri Aug  6 18:34:01 [conn4] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 1, slug: "100000512947631" }, $orderby: { logged_in_at: -1 } }  nreturned:0 157ms
+Fri Aug  6 18:34:01 [slaveTracking] update  0ms
+Fri Aug  6 18:34:01 [conn4] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 0, slug: "100000512947631" }, $orderby: { logged_in_at: -1 } }  nreturned:0 180ms
+Fri Aug  6 18:34:01 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 3ms
+Fri Aug  6 18:34:01 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 47ms
+Fri Aug  6 18:34:01 [conn2] update clobby.chatters  query: { _id: ObjectId('4c53f9e7c3774c1973003b6d') } byid  0ms
+Fri Aug  6 18:34:01 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 4ms
+Fri Aug  6 18:34:01 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:212 nreturned:1 529ms
+Fri Aug  6 18:34:01 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 3ms
+Fri Aug  6 18:34:01 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:01 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 2ms
+Fri Aug  6 18:34:01 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 32ms
+Fri Aug  6 18:34:01 [conn2] update clobby.chatters  query: { _id: ObjectId('4c524060fd516d0a79002a1b') } byid  0ms
+Fri Aug  6 18:34:01 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 190ms
+Fri Aug  6 18:34:01 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 2ms
+Fri Aug  6 18:34:01 [conn4] query clobby.chatters ntoreturn:1 reslen:341 nscanned:186646 { uid: "100001272385191", slug: "139055819440297" }  nreturned:1 193ms
+Fri Aug  6 18:34:01 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 56ms
+Fri Aug  6 18:34:01 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5c09cd6486bd53ab002cac') } byid  0ms
+Fri Aug  6 18:34:01 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:212 nreturned:1 79ms
+Fri Aug  6 18:34:01 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 3ms
+Fri Aug  6 18:34:02 [conn4] query clobby.chatters ntoreturn:1 reslen:341 nreturned:1 47ms
+Fri Aug  6 18:34:02 [conn4] update clobby.chatters  query: { _id: ObjectId('4c53f9e7c3774c1973003b6d') } byid  0ms
+Fri Aug  6 18:34:02 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 82ms
+Fri Aug  6 18:34:02 [initandlisten] connection accepted from 10.240.95.193:40890 #228
+Fri Aug  6 18:34:02 [conn228] run command admin.$cmd { ismaster: 1 }
+Fri Aug  6 18:34:02 [conn228] query admin.$cmd ntoreturn:1 command: { ismaster: 1 } reslen:64 0ms
+Fri Aug  6 18:34:02 [conn228] end connection 10.240.95.193:40890
+Fri Aug  6 18:34:02 [initandlisten] connection accepted from 10.240.95.193:40891 #229
+Fri Aug  6 18:34:02 [conn229] run command frontend_index.$cmd { getnonce: 1 }
+Fri Aug  6 18:34:02 [conn229] query frontend_index.$cmd ntoreturn:1 command: { getnonce: 1 } reslen:81 0ms
+Fri Aug  6 18:34:02 [conn229] run command frontend_index.$cmd { authenticate: 1, nonce: "2811a9178be439b6", user: "mongo_user", key: "34c60591a6ec1a2d2e80ab7b88e10ff4" }
+Fri Aug  6 18:34:02 [conn229]  authenticate: { authenticate: 1, nonce: "2811a9178be439b6", user: "mongo_user", key: "34c60591a6ec1a2d2e80ab7b88e10ff4" }
+Fri Aug  6 18:34:02 [conn229] query frontend_index.$cmd ntoreturn:1 command: { authenticate: 1, nonce: "2811a9178be439b6", user: "mongo_user", key: "34c60591a6ec1a2d2e80ab7b88e10ff4" } reslen:53 0ms
+Fri Aug  6 18:34:02 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 1ms
+Fri Aug  6 18:34:02 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "372917510437" }, fields: null }
+Fri Aug  6 18:34:02 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 2ms
+Fri Aug  6 18:34:02 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:34:02 [slaveTracking] update  0ms
+Fri Aug  6 18:34:02 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 8ms
+Fri Aug  6 18:34:02 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "372917510437" }, fields: null } reslen:64 182ms
+Fri Aug  6 18:34:02 [conn2] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192118 { $query: { status: 1, slug: "372917510437" }, $orderby: { logged_in_at: -1 } }  nreturned:0 275ms
+Fri Aug  6 18:34:02 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192118 { uid: "100000399527420", slug: "149320655078735" }  nreturned:0 359ms
+Fri Aug  6 18:34:02 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:34:02 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 887ms
+Fri Aug  6 18:34:02 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 19ms
+Fri Aug  6 18:34:02 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100001429930112", slug: "103056796418167" }, fields: null }
+Fri Aug  6 18:34:02 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001429930112", slug: "103056796418167" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:03 [conn2] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192119 { $query: { status: 0, slug: "372917510437" }, $orderby: { logged_in_at: -1 } }  nreturned:0 219ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:142 nreturned:1 16ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 1ms
+Fri Aug  6 18:34:03 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000475069871", slug: "122268134455250" }, fields: null }
+Fri Aug  6 18:34:03 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000475069871", slug: "122268134455250" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:03 [conn2] query clobby.chatters ntoreturn:1 reslen:341 nscanned:56350 { uid: "100000475069871", slug: "122268134455250" }  nreturned:1 104ms
+Fri Aug  6 18:34:03 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5470eb99cf9f6f09003b53') } byid  0ms
+Fri Aug  6 18:34:03 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 319ms
+Fri Aug  6 18:34:03 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192119 { uid: "100001429930112", slug: "103056796418167" }  nreturned:0 284ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 6ms
+Fri Aug  6 18:34:03 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:34:03 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "127992203898258" }, fields: null }
+Fri Aug  6 18:34:03 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "127992203898258" }, fields: null } reslen:64 229ms
+Fri Aug  6 18:34:03 [slaveTracking] update  0ms
+Fri Aug  6 18:34:03 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192119 { uid: "100000999124225", slug: "100000904910326" }  nreturned:0 285ms
+Fri Aug  6 18:34:03 [conn2] insert clobby.chatters 0ms
+Fri Aug  6 18:34:03 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 299ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:03 [conn4] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192120 { $query: { status: 1, slug: "127992203898258" }, $orderby: { logged_in_at: -1 } }  nreturned:0 183ms
+Fri Aug  6 18:34:03 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192119 { uid: "100000399527420", slug: "149320655078735" }  nreturned:1 148ms
+Fri Aug  6 18:34:03 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c559a0028763284001792') } byid  0ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 4ms
+Fri Aug  6 18:34:03 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 219ms
+Fri Aug  6 18:34:03 [conn4] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192120 { $query: { status: 0, slug: "127992203898258" }, $orderby: { logged_in_at: -1 } }  nreturned:0 187ms
+Fri Aug  6 18:34:03 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:34:03 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100000796036352", slug: "375551173417" }, fields: null }
+Fri Aug  6 18:34:03 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000796036352", slug: "375551173417" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:03 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192120 { uid: "100000999124225", slug: "100000904910326" }  nreturned:1 138ms
+Fri Aug  6 18:34:03 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 0ms
+Fri Aug  6 18:34:03 [conn4] query clobby.chatters ntoreturn:1 reslen:335 nreturned:1 80ms
+Fri Aug  6 18:34:03 [conn4] update clobby.chatters  query: { _id: ObjectId('4c56eed6d24cb77d7c000147') } byid  0ms
+Fri Aug  6 18:34:03 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 199ms
+Fri Aug  6 18:34:03 [conn4] query clobby.rooms ntoreturn:1 reslen:36 nreturned:0 11ms
+Fri Aug  6 18:34:03 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:04 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:161419 { uid: "100001449041669", slug: "100000821671812" }  nreturned:1 117ms
+Fri Aug  6 18:34:04 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5abf4465b5566d69002c79') } byid  0ms
+Fri Aug  6 18:34:04 [conn2] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 99ms
+Fri Aug  6 18:34:04 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192120 { uid: "100001283223350", slug: "lobby" }  nreturned:0 137ms
+Fri Aug  6 18:34:04 [conn2] insert clobby.chatters 0ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:294 nreturned:1 149ms
+Fri Aug  6 18:34:04 [conn4] query clobby.chatters reslen:341 nscanned:192121 { uid: "100000048903068" }  nreturned:1 184ms
+Fri Aug  6 18:34:04 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 1ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:34:04 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "133545790002872" }, fields: null }
+Fri Aug  6 18:34:04 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "130603360300440" }, fields: null }
+Fri Aug  6 18:34:04 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "133545790002872" }, fields: null } reslen:64 142ms
+Fri Aug  6 18:34:04 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "130603360300440" }, fields: null } reslen:64 150ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 7ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 6ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 2ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:64 nreturned:1 270ms
+Fri Aug  6 18:34:04 [slaveTracking] update  0ms
+Fri Aug  6 18:34:04 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192121 { uid: "892285295", slug: "162457138545" }  nreturned:0 143ms
+Fri Aug  6 18:34:04 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:290 nreturned:1 89ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 10ms
+Fri Aug  6 18:34:04 [conn2] query clobby.chatters ntoreturn:18 scanAndOrder  reslen:36 nscanned:192122 { $query: { status: 1, slug: "133545790002872" }, $orderby: { logged_in_at: -1 } }  nreturned:0 166ms
+Fri Aug  6 18:34:04 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192122 { uid: "100000067814695", slug: "118169704886553" }  nreturned:0 154ms
+Fri Aug  6 18:34:04 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 169ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 1ms
+Fri Aug  6 18:34:04 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "640865265", slug: "131988520171681" }, fields: null }
+Fri Aug  6 18:34:04 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "640865265", slug: "131988520171681" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:04 [conn2] query clobby.chatters ntoreturn:9 scanAndOrder  reslen:36 nscanned:192123 { $query: { status: 0, slug: "133545790002872" }, $orderby: { logged_in_at: -1 } }  nreturned:0 157ms
+Fri Aug  6 18:34:04 [conn2] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:34:04 [conn4] query clobby.chatters ntoreturn:1 reslen:323 nscanned:163700 { uid: "640865265", slug: "131988520171681" }  nreturned:1 119ms
+Fri Aug  6 18:34:04 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5ad7f1cb356d6e76004859') } byid  0ms
+Fri Aug  6 18:34:04 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 139ms
+Fri Aug  6 18:34:04 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 11ms
+Fri Aug  6 18:34:04 [conn2] query clobby.chatters ntoreturn:1 reslen:256 nscanned:192121 { uid: "100001283223350", slug: "lobby" }  nreturned:1 153ms
+Fri Aug  6 18:34:04 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:05 [conn4] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192123 { uid: "100000067814695", slug: "118169704886553" }  nreturned:1 147ms
+Fri Aug  6 18:34:05 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5c559c0028763284001795') } byid  0ms
+Fri Aug  6 18:34:05 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 169ms
+Fri Aug  6 18:34:05 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:34:05 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100001005810698", slug: "372917510437" }, fields: null }
+Fri Aug  6 18:34:05 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001005810698", slug: "372917510437" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:05 [conn2] query clobby.chatters ntoreturn:1 reslen:335 nscanned:157253 { uid: "100001253723601", slug: "188592346780" }  nreturned:1 116ms
+Fri Aug  6 18:34:05 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5a942fcb356d6e7600270f') } byid  0ms
+Fri Aug  6 18:34:05 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:212 nreturned:1 29ms
+Fri Aug  6 18:34:05 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:34:05 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 3ms
+Fri Aug  6 18:34:05 [conn4] query clobby.chatters ntoreturn:1 reslen:335 nreturned:1 74ms
+Fri Aug  6 18:34:05 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5726e88cbe400454000511') } byid  0ms
+Fri Aug  6 18:34:05 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 59ms
+Fri Aug  6 18:34:05 [conn2] query clobby.chatters ntoreturn:1 reslen:252 nscanned:192122 { uid: "892285295", slug: "162457138545" }  nreturned:1 153ms
+Fri Aug  6 18:34:05 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c559c0028763284001794') } byid  0ms
+Fri Aug  6 18:34:05 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 149ms
+Fri Aug  6 18:34:05 [slaveTracking] update  0ms
+Fri Aug  6 18:34:05 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 3ms
+Fri Aug  6 18:34:05 [conn2] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192123 { uid: "100000491670145", slug: "100000108200359" }  nreturned:0 164ms
+Fri Aug  6 18:34:05 [conn2] insert clobby.chatters 0ms
+Fri Aug  6 18:34:05 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 389ms
+Fri Aug  6 18:34:05 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:06 [conn4] query clobby.chatters reslen:545 nscanned:192124 { uid: "1756496459" }  nreturned:2 128ms
+Fri Aug  6 18:34:06 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "284336789333" }, fields: null }
+Fri Aug  6 18:34:06 [conn2] query clobby.chatters ntoreturn:1 reslen:335 nscanned:191950 { uid: "100001117902653", slug: "284336789333" }  nreturned:1 276ms
+Fri Aug  6 18:34:06 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c532c6486bd53ab004bf9') } byid  0ms
+Fri Aug  6 18:34:06 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 789ms
+Fri Aug  6 18:34:06 [slaveTracking] update  0ms
+Fri Aug  6 18:34:06 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "284336789333" }, fields: null } reslen:64 313ms
+Fri Aug  6 18:34:06 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 10ms
+Fri Aug  6 18:34:06 [conn4] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "138007869573444" }, fields: null }
+Fri Aug  6 18:34:06 [conn2] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn2] run command clobby.$cmd { count: "bans", query: { uid: "100000757244196", slug: "127992203898258" }, fields: null }
+Fri Aug  6 18:34:06 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100000757244196", slug: "127992203898258" }, fields: null } reslen:64 0ms
+Fri Aug  6 18:34:06 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "138007869573444" }, fields: null } reslen:64 139ms
+Fri Aug  6 18:34:06 [conn4] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn2] query clobby.chatters ntoreturn:1 reslen:276 nscanned:191753 { uid: "100000757244196", slug: "127992203898258" }  nreturned:1 175ms
+Fri Aug  6 18:34:06 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5c51370028763284001583') } byid  0ms
+Fri Aug  6 18:34:06 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 1ms
+Fri Aug  6 18:34:06 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:201 nreturned:1 299ms
+Fri Aug  6 18:34:06 [conn2] query clobby.rooms ntoreturn:1 reslen:170 nreturned:1 0ms
+Fri Aug  6 18:34:06 [conn4] query clobby.chatters ntoreturn:1 reslen:335 nscanned:191950 { uid: "100001117902653", slug: "284336789333" }  nreturned:1 135ms
+Fri Aug  6 18:34:06 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:06 [conn2] query clobby.chatters ntoreturn:1 reslen:335 nscanned:157253 { uid: "100001253723601", slug: "188592346780" }  nreturned:1 113ms
+Fri Aug  6 18:34:06 [conn2] update clobby.chatters  query: { _id: ObjectId('4c5a942fcb356d6e7600270f') } byid  0ms
+Fri Aug  6 18:34:06 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 139ms
+Fri Aug  6 18:34:06 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192124 { uid: "100001182966629", slug: "117148028322270" }  nreturned:0 134ms
+Fri Aug  6 18:34:06 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:34:07 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:314 nreturned:1 59ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 9ms
+Fri Aug  6 18:34:07 [conn2] query clobby.chatters reslen:2188 nscanned:192125 { uid: "100001296499353" }  nreturned:8 119ms
+Fri Aug  6 18:34:07 [conn2] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:34:07 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "lobby" }, fields: null }
+Fri Aug  6 18:34:07 [conn4] query clobby.chatters ntoreturn:1 reslen:276 nscanned:192125 { uid: "100001182966629", slug: "117148028322270" }  nreturned:1 136ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:34:07 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "lobby" }, fields: null } reslen:64 144ms
+Fri Aug  6 18:34:07 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 2ms
+Fri Aug  6 18:34:07 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "100000471852615" }, fields: null }
+Fri Aug  6 18:34:07 [conn4] query clobby.chatters ntoreturn:1 reslen:36 nscanned:192125 { uid: "100000278748942", slug: "lobby" }  nreturned:0 138ms
+Fri Aug  6 18:34:07 [conn4] insert clobby.chatters 0ms
+Fri Aug  6 18:34:07 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:294 nreturned:1 339ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:204 nreturned:1 7ms
+Fri Aug  6 18:34:07 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "100000471852615" }, fields: null } reslen:64 145ms
+Fri Aug  6 18:34:07 [conn2] query clobby.rooms ntoreturn:1 reslen:168 nreturned:1 0ms
+Fri Aug  6 18:34:07 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "35752024118" }, fields: null }
+Fri Aug  6 18:34:07 [conn4] query clobby.chatters ntoreturn:1 reslen:256 nscanned:192126 { uid: "100000278748942", slug: "lobby" }  nreturned:1 141ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 5ms
+Fri Aug  6 18:34:07 [slaveTracking] update  0ms
+Fri Aug  6 18:34:07 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "35752024118" }, fields: null } reslen:64 170ms
+Fri Aug  6 18:34:07 [conn2] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 0ms
+Fri Aug  6 18:34:07 [conn2] run command clobby.$cmd { count: "chatters", query: { status: 1, slug: "124463360906668" }, fields: null }
+Fri Aug  6 18:34:07 [conn4] query clobby.chatters ntoreturn:1 reslen:341 nscanned:192086 { uid: "100000851205222", slug: "139880822704564" }  nreturned:1 136ms
+Fri Aug  6 18:34:07 [conn4] update clobby.chatters  query: { _id: ObjectId('4c5c552a0028763284001753') } byid  0ms
+Fri Aug  6 18:34:07 [conn7] getmore local.oplog.$main cid:6219060966221704696 getMore: { ts: { $gte: new Date(5502364039780499459) } }  bytes:136 nreturned:1 319ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:176 nreturned:1 1ms
+Fri Aug  6 18:34:07 [conn215] end connection 10.241.35.31:56184
+Fri Aug  6 18:34:07 [conn2] query clobby.$cmd ntoreturn:1 command: { count: "chatters", query: { status: 1, slug: "124463360906668" }, fields: null } reslen:64 151ms
+Fri Aug  6 18:34:07 [conn4] query clobby.rooms ntoreturn:1 reslen:58 nreturned:1 1ms
+Fri Aug  6 18:34:07 [conn2] query clobby.rooms ntoreturn:1 reslen:147 nreturned:1 5ms
+Fri Aug  6 18:34:07 [conn4] run command clobby.$cmd { count: "bans", query: { uid: "100001202424165", slug: "104554982929764" }, fields: null }
+Fri Aug  6 18:34:07 [conn4] query clobby.$cmd ntoreturn:1 command: { count: "bans", query: { uid: "100001202424165", slug: "104554982929764" }, fields: null } reslen:64 0ms

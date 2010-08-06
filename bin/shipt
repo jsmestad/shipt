@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'trollop'
+
+require File.join(File.dirname(__FILE__), '..', 'lib', 'shipt')
+
+opts = Trollop::options do
+  version "test 0.0.1 (c) 2010 Justin Smestad"
+  banner <<-EOS
+  Ship a file to S3.
+
+  Usage:
+         shipt [options] <filename>
+  where [options] are:
+EOS
+
+  opt :bucket,      "Bucket name, should be server name"
+  opt :access_key,  "Amazon Access Key"
+  opt :secret_key,  "Amazon Secret Access Key"
+end
+
+s = Shipt.new(opts[:bucket], opts)
+
+s.upload_file(ARGV.first)

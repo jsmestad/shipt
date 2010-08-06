@@ -1,0 +1,4 @@
+# This is an example ~/.fog configuration file
+:default:
+  :aws_access_key_id:     AKWEBAMAZ5T2I7MSAMFQ
+  :aws_secret_access_key: (secret_key_here)
