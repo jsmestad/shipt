@@ -7,7 +7,6 @@ require 'ftools'
 require File.join(File.dirname(__FILE__), '..', 'lib', 'shipt')
 
 opts = Trollop::options do
-  version "test 0.0.1 (c) 2010 Justin Smestad"
   banner <<-EOS
   Ship a file to S3.
 
@@ -16,10 +15,10 @@ opts = Trollop::options do
   where [options] are:
 EOS
 
-  opt :bucket,      "Bucket name, should be server name", :type => :string
-  opt :access_key,  "Amazon Access Key",                  :type => :string, :default => ENV['AWS_ACCESS_KEY']
-  opt :secret_key,  "Amazon Secret Access Key",           :type => :string, :default => ENV['AWS_SECRET_KEY']
-  opt :cleanup,     "Cleanup the file after completion?", :default => false
+  opt :bucket,      "Bucket name, should be server name", :type => :string,   :default => ENV['AWS_BUCKET_NAME']
+  opt :access_key,  "Amazon Access Key",                  :type => :string,   :default => ENV['AWS_ACCESS_KEY']
+  opt :secret_key,  "Amazon Secret Access Key",           :type => :string,   :default => ENV['AWS_SECRET_KEY']
+  opt :cleanup,     "Cleanup the file after completion?", :default => false,  :default => ENV['SHIPT_CLEANUP']
 end
 
 s = Shipt.new(opts[:bucket], opts)
