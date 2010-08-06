@@ -18,6 +18,7 @@ class Shipt
     @logger.info "Uploading \"#{path}\" => \"#{key_name}\""
     r = directory.files.create(:key => key_name, :body => File.read(path))
     @logger.info "Uploaded: #{r.inspect}"
+    return r
   end
   
   def directory

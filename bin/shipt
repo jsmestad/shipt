@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'trollop'
+require 'yaml'
+require 'ftools'
 
 require File.join(File.dirname(__FILE__), '..', 'lib', 'shipt')
 
@@ -15,10 +17,14 @@ opts = Trollop::options do
 EOS
 
   opt :bucket,      "Bucket name, should be server name", :type => :string
-  opt :access_key,  "Amazon Access Key", :type => :string
-  opt :secret_key,  "Amazon Secret Access Key", :type => :string
+  opt :access_key,  "Amazon Access Key",                  :type => :string, :default => ENV['AWS_ACCESS_KEY']
+  opt :secret_key,  "Amazon Secret Access Key",           :type => :string, :default => ENV['AWS_SECRET_KEY']
+  opt :cleanup,     "Cleanup the file after completion?", :default => false
 end
 
 s = Shipt.new(opts[:bucket], opts)
-
 s.upload_file(ARGV.first)
+
+if opts[:cleanup]
+  File.delete(ARGV.first)
+end
