@@ -15,6 +15,7 @@ opts = Trollop::options do
   where [options] are:
 EOS
 
+  opt :namespace,   "Namespace for buckets",              :type => :string
   opt :bucket,      "Bucket name, should be server name", :type => :string,   :default => ENV['AWS_BUCKET_NAME']
   opt :access_key,  "Amazon Access Key",                  :type => :string,   :default => ENV['AWS_ACCESS_KEY']
   opt :secret_key,  "Amazon Secret Access Key",           :type => :string,   :default => ENV['AWS_SECRET_KEY']
