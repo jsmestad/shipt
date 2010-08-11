@@ -14,7 +14,12 @@ class Shipt
   end
 
   def upload_file(path)
-    key_name = "#{@server_name}-#{Time.now.strftime("%Y%m%d-%H%M%S")}.log"
+    ext = File.extname(path)
+    key_name =  if ext == '.log'
+                  "#{@server_name}-#{Time.now.strftime("%Y%m%d-%H%M%S")}#{ext}"
+                else
+                  "#{@server_name}-#{Time.now.strftime("%Y%m%d-%H%M%S")}.log#{ext}"
+                end
 
     @logger.info "Uploading \"#{path}\" => \"#{key_name}\""
 
