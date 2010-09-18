@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{shipt}
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Smestad"]
-  s.date = %q{2010-08-11}
+  s.date = %q{2010-09-18}
   s.default_executable = %q{shipt}
   s.description = %q{longer description of your gem}
   s.email = %q{justin.smestad@gmail.com}
@@ -52,20 +52,20 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<fog>, ["~> 0.2.22"])
+      s.add_runtime_dependency(%q<fog>, ["~> 0.2.30"])
       s.add_runtime_dependency(%q<trollop>, ["~> 1.16.2"])
-      s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
+      s.add_development_dependency(%q<rspec>, [">= 2.0.0.beta.22"])
       s.add_development_dependency(%q<yard>, [">= 0"])
     else
-      s.add_dependency(%q<fog>, ["~> 0.2.22"])
+      s.add_dependency(%q<fog>, ["~> 0.2.30"])
       s.add_dependency(%q<trollop>, ["~> 1.16.2"])
-      s.add_dependency(%q<rspec>, [">= 1.2.9"])
+      s.add_dependency(%q<rspec>, [">= 2.0.0.beta.22"])
       s.add_dependency(%q<yard>, [">= 0"])
     end
   else
-    s.add_dependency(%q<fog>, ["~> 0.2.22"])
+    s.add_dependency(%q<fog>, ["~> 0.2.30"])
     s.add_dependency(%q<trollop>, ["~> 1.16.2"])
-    s.add_dependency(%q<rspec>, [">= 1.2.9"])
+    s.add_dependency(%q<rspec>, [">= 2.0.0.beta.22"])
     s.add_dependency(%q<yard>, [">= 0"])
   end
 end

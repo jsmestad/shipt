@@ -4,8 +4,8 @@ GEM
     autotest (4.3.2)
     builder (2.1.2)
     diff-lcs (1.1.2)
-    excon (0.2.0)
-    fog (0.2.22)
+    excon (0.2.2)
+    fog (0.2.30)
       builder
       excon (>= 0.2.0)
       formatador (>= 0.0.15)
@@ -15,21 +15,23 @@ GEM
       nokogiri (>= 1.4.3.1)
       ruby-hmac
     formatador (0.0.15)
-    json (1.4.4)
+    json (1.4.6)
     mime-types (1.16)
     net-ssh (2.0.23)
     nokogiri (1.4.3.1)
-    rspec (2.0.0.beta.19)
-      rspec-core (= 2.0.0.beta.19)
-      rspec-expectations (= 2.0.0.beta.19)
-      rspec-mocks (= 2.0.0.beta.19)
-    rspec-core (2.0.0.beta.19)
-    rspec-expectations (2.0.0.beta.19)
+    rspec (2.0.0.beta.22)
+      rspec-core (= 2.0.0.beta.22)
+      rspec-expectations (= 2.0.0.beta.22)
+      rspec-mocks (= 2.0.0.beta.22)
+    rspec-core (2.0.0.beta.22)
+    rspec-expectations (2.0.0.beta.22)
       diff-lcs (>= 1.1.2)
-    rspec-mocks (2.0.0.beta.19)
+    rspec-mocks (2.0.0.beta.22)
+      rspec-core (= 2.0.0.beta.22)
+      rspec-expectations (= 2.0.0.beta.22)
     ruby-hmac (0.4.0)
     trollop (1.16.2)
-    yard (0.5.8)
+    yard (0.6.1)
 
 PLATFORMS
   ruby
@@ -37,6 +39,6 @@ PLATFORMS
 DEPENDENCIES
   autotest
   fog
-  rspec (~> 2.0.0.beta.18)
+  rspec (~> 2.0.0.beta.22)
   trollop
   yard

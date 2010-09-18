@@ -10,9 +10,9 @@ begin
     gem.email = "justin.smestad@gmail.com"
     gem.homepage = "http://github.com/jsmestad/shipt"
     gem.authors = ["Justin Smestad"]
-    gem.add_dependency "fog", '~> 0.2.22'
+    gem.add_dependency "fog", '~> 0.2.30'
     gem.add_dependency "trollop", '~> 1.16.2'
-    gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "rspec", ">= 2.0.0.beta.22"
     gem.add_development_dependency "yard", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
